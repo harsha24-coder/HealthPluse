@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api'
+  baseURL: 'https://healthpulse-backend-bw3u.onrender.com/api'
 });
 
 // Request interceptor to attach JWT token
